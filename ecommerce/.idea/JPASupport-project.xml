@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoGeneratorSettingsState">
+    <option name="generateSwaggerUIComment" value="true" />
+    <option name="ignoredFields">
+      <set>
+        <option value="" />
+      </set>
+    </option>
+    <option name="moduleName" value="jsp-servlet-ecommerce-website" />
+    <option name="moduleNameToSettings">
+      <map>
+        <entry key="jsp-servlet-ecommerce-website">
+          <value>
+            <ModuleSettings>
+              <option name="controllerParentDirectory" value="$PROJECT_DIR$/src/main/java" />
+              <option name="dtoParentDirectory" value="$PROJECT_DIR$/src/main/java" />
+              <option name="entityPackageName" value="com.ecommerce.model" />
+              <option name="entityParentDirectory" value="$PROJECT_DIR$/src/main/java" />
+              <option name="mapperXmlParentDirectory" value="C:\Users\admin\Downloads\jsp-servlet-ecommerce-website-master\jsp-servlet-ecommerce-website-master\src\main\resources" />
+              <option name="repositoryPackageName" value="com.ecommerce.repository" />
+              <option name="repositoryParentDirectory" value="$PROJECT_DIR$/src/main/java" />
+              <option name="serviceParentDirectory" value="$PROJECT_DIR$/src/main/java" />
+              <option name="voParentDirectory" value="$PROJECT_DIR$/src/main/java" />
+            </ModuleSettings>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="removeFieldPrefix" value="" />
+    <option name="useJava8DateType" value="true" />
+  </component>
+  <component name="DatabaseSettingsState">
+    <option name="database" value="jsp-servlet-ecommerce-website" />
+    <option name="driverClass" value="com.mysql.jdbc.Driver" />
+    <option name="driverPath" value="C:\Users\admin\.m2\repository\mysql\mysql-connector-java\8.0.28\mysql-connector-java-8.0.28.jar" />
+    <option name="url" value="jdbc:mysql://{host}:{port}/{database}" />
+  </component>
+</project>
