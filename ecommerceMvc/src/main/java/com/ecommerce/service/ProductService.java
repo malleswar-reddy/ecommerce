@@ -17,6 +17,13 @@ public class ProductService {
 		
 		return productDao.getAllProducts();
 	}
+
+	
+
+	public List<Product> getAllCategoryProducts(int category_id) {
+		
+		return productDao.getAllCategoryProducts(category_id);
+	}
 	
 	
 }

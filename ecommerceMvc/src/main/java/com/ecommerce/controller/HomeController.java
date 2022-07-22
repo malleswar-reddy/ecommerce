@@ -21,7 +21,7 @@ public class HomeController {
 	@Autowired
 	private CategoryService categoryService;
 
-	@GetMapping("/")
+	@GetMapping("")
 	public String homeControl(ModelMap model) {
 		List<Product> productList = productService.getAllProducts();
 		List<Category> categoryList = categoryService.getAllCategories();
