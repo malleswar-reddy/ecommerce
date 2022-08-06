@@ -48,7 +48,7 @@ public class SwaggerConfig implements WebMvcConfigurer {
                 "Spring Boot Swagger Example API for Youtube",
                 "1.0",
                 "Terms of Service",
-                new Contact("Malleswar Tech", "https://www.youtube.com",
+                new Contact("Malleswar Tech", "https://studio.youtube.com/channel/UCYL1P7SGwNECNq_0Ucd7Mzw",
                         "malleswar.mca@gmail.com"),
                 "Apache License Version 2.0",
                 "https://www.apache.org/licesen.html"
