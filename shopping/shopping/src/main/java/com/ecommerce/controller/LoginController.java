@@ -59,7 +59,7 @@ public class LoginController {
 			response.addCookie(passwordCookie);
 		}
 
-		return "/";
+		return "index";
 		// response.sendRedirect("/ecommerce");
 
 	}
@@ -91,9 +91,8 @@ public class LoginController {
 			return "login";
 		} else {
 			// Login when all information are correct.
-			executeLogin(request, response, account);
+			return	executeLogin(request, response, account);
 		}
-		return "login";
 
 	}
 
