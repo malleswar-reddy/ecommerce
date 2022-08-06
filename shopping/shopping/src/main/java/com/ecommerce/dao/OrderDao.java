@@ -8,11 +8,13 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 import com.ecommerce.model.CartProduct;
 import com.ecommerce.model.Order;
 import com.ecommerce.model.Product;
 import com.ecommerce.repository.Database;
-
+@Component
 public class OrderDao {
     Connection connection = null;
     PreparedStatement preparedStatement = null;
